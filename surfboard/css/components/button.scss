@@ -1,0 +1,33 @@
+.button {
+  
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 21px 41px 21px 41px ;
+  border-radius: 32px;
+  line-height: 1;
+  text-transform: uppercase;
+  transition: 0.5s;
+  border: none;
+
+}
+
+.button__yellow
+{
+  background-color: #FEDB3F;
+  color: #000000;
+  &:hover {
+    background: #FFD517;
+  }
+}
+
+.button__transperent
+{
+  background: transparent;
+  color: $color-grey ;
+  margin-left: 20px;
+  &:hover
+  {
+    color: #FEDB3F;
+  }
+}

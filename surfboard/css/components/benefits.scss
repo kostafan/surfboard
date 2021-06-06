@@ -1,0 +1,32 @@
+.benefits
+{
+  color: $color-grey;
+  display: flex;
+  &__item
+  {
+    flex: 1; 
+    padding: 0 3%;
+    &::before
+    {
+      content: url("../../pictures/benefit/separator-1.png");
+      position:absolute;
+      top: 30px;
+      right: 0;
+      transform: translateX(50%);
+    }
+    &:first-child
+    {
+      padding-left: 0;
+      &::before
+      {
+        display: none;
+      }
+    }
+    &:last-child
+    {
+      padding-right: 0;
+    }
+  }
+ 
+}
+

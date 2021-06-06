@@ -1,0 +1,10 @@
+.headline
+{
+  text-align: center;
+  color:$color-grey;
+  &__subtitle
+  {
+    margin-bottom: 50px;
+    padding: 0 26%;
+  }
+}
