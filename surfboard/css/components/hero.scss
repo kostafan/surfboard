@@ -1,6 +1,8 @@
 .hero {
   // background-image: url(../../pictures/backgrounds/hero-background.png);
-  background-image: url(./../../pictures/backgrounds/hero-background.png);
+  // background-image: url(./../../pictures/backgrounds/hero-background.png);
+  // background-image: url(main.css/../../../pictures/backgrounds/hero-background.png);
+  background-image: url(../main.css/../../pictures/backgrounds/hero-background.png);
   background-repeat: no-repeat;
   background-position: top center;
   color: $color-white;
