@@ -2,7 +2,7 @@
 @import url(../layout/normalize.css);
 @import url(../layout/base.css);
 .hero {
-  background-image: url(../main.css/../../pictures/backgrounds/hero-background.png);
+  background-image: url(../pictures/backgrounds/hero-background.png);
   background-repeat: no-repeat;
   background-position: top center;
   color: #FFFFFF;
@@ -213,7 +213,7 @@
   padding: 0 3%;
 }
 .benefits__item::before {
-  content: url(./../../pictures/benefit/separator-1.png);
+  content: url(../pictures/benefit/separator-1.png);
   position: absolute;
   top: 30px;
   right: 0;
