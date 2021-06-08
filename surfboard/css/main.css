@@ -353,7 +353,9 @@
 }
 
 .delivery__section {
-  background: url(../pictures/backgrounds/.delivery-background);
+  background-image: url(../pictures/backgrounds/delivery-background.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
   color: #FFFFFF;
 }
 
