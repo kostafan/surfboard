@@ -60,24 +60,30 @@
   display: -ms-flexbox;
   display: flex;
 }
-.contacts .phone-number__icon {
-  margin-right: 10px;
-}
-.contacts .contacts__phone {
-  color: #FFFFFF;
-  font-weight: bold;
-  font-size: 22px;
-  text-decoration: none;
+.contacts__phone {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
 }
-.contacts .contats__tel {
+.contacts__tel {
   width: 13px;
   height: 14px;
+}
+
+.phone-number__icon {
+  margin-right: 10px;
+}
+
+.phone-number__text {
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .greetings__features {
@@ -476,7 +482,7 @@
 .fixed-menu {
   position: fixed;
   top: 29%;
-  right: 17%;
+  right: 3%;
   z-index: 100;
 }
 .fixed-menu__item {

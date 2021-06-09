@@ -35,21 +35,29 @@
 .contacts {
   display: flex;
 
-  .phone-number__icon {
-    margin-right: 10px;
-  }
 
-  .contacts__phone {
+
+  &__phone {
+    display: flex;
+    align-items: center;
     color: $color-white;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
-    display: flex;
-    align-items: center;
+ 
   }
-  .contats__tel
+  &__tel
   {
    width: 13px;
    height: 14px; 
   }
+}
+
+.phone-number__icon {
+  margin-right: 10px;
+}
+
+.phone-number__text {
+  font-weight: bold;
+  font-size: 18px;
 }
