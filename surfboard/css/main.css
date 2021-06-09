@@ -507,3 +507,11 @@
 .fixed-menu__item--active .fixed-menu__link {
   border-color: #fff;
 }
+
+.map {
+  background-image: url(../pictures/map.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  color: #FFFFFF;
+}
