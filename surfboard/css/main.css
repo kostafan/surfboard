@@ -3,6 +3,7 @@
 @import url(../layout/base.css);
 .hero {
   background-image: url(../pictures/backgrounds/hero-background.png);
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: top center;
   color: #FFFFFF;
@@ -354,6 +355,7 @@
 
 .delivery__section {
   background-image: url(../pictures/backgrounds/delivery-background.jpg);
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: top center;
   color: #FFFFFF;
