@@ -55,15 +55,15 @@
   font-size: 18px;
 }
 
-.contats {
+.contacts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.contats .phone-number__icon {
+.contacts .phone-number__icon {
   margin-right: 10px;
 }
-.contats .contacts__phone {
+.contacts .contacts__phone {
   color: #FFFFFF;
   font-weight: bold;
   font-size: 22px;
@@ -75,7 +75,7 @@
       -ms-flex-align: center;
           align-items: center;
 }
-.contats .contats__tel {
+.contacts .contats__tel {
   width: 13px;
   height: 14px;
 }
