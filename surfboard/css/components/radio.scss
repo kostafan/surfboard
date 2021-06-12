@@ -3,8 +3,8 @@
   align-items: center;
   cursor: pointer;
   user-select: none;
-  margin-right: 10px;
-  &--chekbox
+  margin-right: rem(10px);
+  &_chekbox
   {
     .radio__visible
     {
@@ -20,17 +20,17 @@
   }
 
   &__visible {
-    height: 25px;
-    width: 25px;
+    height: rem(25px);
+    width: rem(25px);
     position: relative;
     border-radius: 50%;
     background-color: #fff ;
-    margin-right: 10px;
+    margin-right: rem(10px);
     &::before
     {
       content: " ";
-      width: 13px;
-      height: 13px;
+      width: rem(13px);
+      height: rem(13px);
       display: none;
       border-radius: 50%;
       background-color:#FEDB3F ;

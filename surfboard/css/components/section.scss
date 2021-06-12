@@ -2,15 +2,15 @@
 .section
 {
   height: 100vh;
-  min-height: 610px;
+  min-height: rem(610px);
   display: flex;
   flex-direction: column;
   justify-content: center;
   &__title
   {
-    font-size: 48px;
+    font-size: rem(48px);
     font-weight: bold;
-    margin-bottom: 60px;
+    margin-bottom: rem(60px);
     text-align: center;
     text-transform: uppercase;
     color:#292929 ;
@@ -19,7 +19,7 @@
 
 .headline__title
 {
-  margin-bottom: 25px;
+  margin-bottom: rem(25px);
   &__subtitle
   {
     color: #666;

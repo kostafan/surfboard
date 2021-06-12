@@ -3,7 +3,7 @@
   display: flex;
 
   .feature__item-wrap {
-    max-width: 90px;
+    max-width: rem(90px);
   }
 
   .feature__item {
@@ -11,10 +11,10 @@
     list-style: none;
     align-items: center;
     font-weight: bold;
-    font-size: 16px;
-    margin-top: 65px;
-    margin-right: 33px;
-    padding-bottom: 70px;
+    font-size: rem(16px);
+    margin-top: rem(65px);
+    margin-right: rem(33px);
+    padding-bottom: rem(70px);
   }
 
   .feature__item:last-child {
@@ -22,7 +22,7 @@
   }
 
   .feature__img {
-    margin-right: 10px;
-    width: 45px;
+    margin-right: rem(10px);
+    width: rem(45px);
   }
 }

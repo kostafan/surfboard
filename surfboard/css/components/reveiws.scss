@@ -2,7 +2,7 @@
 {
   
   background: #F8FAF9;
-  padding: 55px 42px 55px 42px;
+  padding: rem(55px) rem(42px) rem(55px) rem(42px);
   &-inner
   {
     display: flex;
@@ -11,8 +11,8 @@
 
 .reviews__avatar
 {
-  width: 254px;
-  height: 264px;
+  width: rem(254px);
+  height: rem(264px);
   &-img
   {
     object-fit: cover;
@@ -24,30 +24,30 @@
 .reviews__content
 {
   flex: 1;
-  margin-left: 35px;
+  margin-left: rem(35px);
 }
 
 .reviews__title
 {
   font-weight: bold;
-  font-size: 27px;
-  margin-top: 25px;
-  margin-bottom: 22px;
+  font-size: rem(27px);
+  margin-top: rem(25px);
+  margin-bottom: rem(22px);
   color: black;
 }
 
 .reviews__text
 {
-  margin-bottom: 50px;
+  margin-bottom: rem(50px);
   color: #666666;
   font-weight: normal;
-  font-size: 18px;
+  font-size: rem(18px);
 }
 
 .reveiws__author
 {
   font-weight: 500;
-  font-size: 18px;
+  font-size: rem(18px);
   color: black;
 }
 

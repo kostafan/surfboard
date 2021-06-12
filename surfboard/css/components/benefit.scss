@@ -5,14 +5,14 @@
   {
     color: #292929;
     font-weight: bold;
-    font-size: 27px;
-    margin-bottom: 20px;
+    font-size: rem(27px);
+    margin-bottom: rem(20px);
   }
   &__image-wrap
   {
     display: inline-block;
-    width: 128px;
-    height: 128px;
+    width: rem(128px);
+    height: rem(128px);
     position: relative;
     background-color: #F2F5F4;
     border-radius: 50%;
@@ -20,8 +20,8 @@
   }
   &__icon
   {
-    width: 68px;
-    height: 68px;
+    width: rem(68px);
+    height: rem(68px);
     position: absolute;
     top: 50%;
     left: 50%;

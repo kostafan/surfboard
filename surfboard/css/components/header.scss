@@ -2,22 +2,22 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 25px;
-  margin-bottom: 100px;
+  padding-top: rem(25px);
+  margin-bottom: rem(100px);
 }
 
 .logo-wrapp {
-  padding-right: 46px;
+  padding-right: rem(46px);
 }
 
 .menu__list {
   display: flex;
   align-items: center;
   .menu__item {
-    font-size: 16px;
+    font-size: rem(16px);
     display: flex;
     flex: 1;
-    margin-right: 20px;
+    margin-right: rem(20px);
 
     &__item:last-child {
       margin-right: 0;
@@ -28,7 +28,7 @@
     text-decoration: none;
     color: $color-white;
     font-weight: bold;
-    font-size: 18px;
+    font-size: rem(18px);
   }
 }
 
@@ -42,22 +42,22 @@
     align-items: center;
     color: $color-white;
     font-weight: bold;
-    font-size: 22px;
+    font-size: rem(22px);
     text-decoration: none;
  
   }
   &__tel
   {
-   width: 13px;
-   height: 14px; 
+   width: rem(13px);
+   height: rem(14px); 
   }
 }
 
 .phone-number__icon {
-  margin-right: 10px;
+  margin-right: rem(10px);
 }
 
 .phone-number__text {
   font-weight: bold;
-  font-size: 18px;
+  font-size: rem(18px);
 }

@@ -6,11 +6,11 @@
   {
     flex: 1; 
     padding: 0 3%;
-    &::before
+    &::after
     {
       content: url(../pictures/benefit/separator-1.png);
       position:absolute;
-      top: 30px;
+      top: rem(30px);
       right: 0;
       transform: translateX(50%);
     }

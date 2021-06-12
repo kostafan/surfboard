@@ -1,10 +1,10 @@
 .button {
   
-  font-size: 14px;
+  font-size: rem(14px);
   font-weight: 700;
   cursor: pointer;
-  padding: 21px 41px 21px 41px ;
-  border-radius: 32px;
+  padding: rem(21px) rem(41px) rem(21px) rem(41px);
+  border-radius: rem(32px);
   line-height: 1;
   text-transform: uppercase;
   transition: 0.5s;
@@ -25,7 +25,7 @@
 {
   background: transparent;
   color: $color-grey ;
-  margin-left: 20px;
+  margin-left: rem(20px);
   &:hover
   {
     color: #FEDB3F;
