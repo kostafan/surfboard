@@ -2,6 +2,10 @@
   font-weight: bold;
   font-size: rem(48px);
   text-transform: uppercase;
+  @include phones
+  {
+    font-size: rem(40px);
+  }
 }
 .delivery__title
 {
@@ -14,13 +18,32 @@
 }
 
 .greetings__title-wrap {
-  width: rem(575px);
-  margin-bottom: rem(20px);
+  width: 60%;
+  
+
+
+  @include tablets
+  {
+     width: 100%;
+     flex: 1;
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center; 
+     text-align: center;  
+     padding: 0 19%;
+     
+  }
+  @include phones
+  {
+    padding: 0 3%;
+  }
 
   .greetings__title
   {
   font-weight: bold;
   font-size: rem(48px);
+  margin-bottom: rem(20px);
   text-transform: uppercase;
   }
 

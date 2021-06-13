@@ -1,11 +1,25 @@
 .form
 {
   display: flex;
+  @include tablets
+  {
+    flex-direction: column;
+    padding: 0 19%;
+  }
+  @include phones
+  {
+    padding: 0;
+  }
+  
   &__col
   {
     flex: 1;
     margin-right: rem(20px);
     &:last-child
+    {
+      margin-right: 0;
+    }
+    @include tablets
     {
       margin-right: 0;
     }
@@ -24,6 +38,11 @@
     display: flex;
     flex-wrap: wrap;
     margin-bottom: rem(20px);
+    @include phones
+    {
+      justify-content: center;
+    }
+
     &:last-child
     {
       margin-bottom: 0;
@@ -32,6 +51,8 @@
   &__buttons
   {
     margin-top: rem(47px);
+    display: flex;
+    justify-content: center;
   }
 }
 

@@ -6,5 +6,9 @@
   {
     margin-bottom: rem(50px);
     padding: 0 26%;
+    @include phones
+    {
+      padding: 0 4%;
+    }
   }
 }
