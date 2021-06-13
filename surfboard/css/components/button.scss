@@ -35,13 +35,23 @@
 {
   @include tablets
   {
-    width: 100%;
+    width: rem(160px);
+    height: rem(60px);
+     
+  }
+
+}
+
+.greetings__button-wrap
+{
+  @include tablets
+  {
     flex: 1;
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center; 
-    text-align: center;  
+    text-align: center;
   }
-
+   
 }

@@ -1,12 +1,16 @@
 .hero {
   background-image: url(../pictures/backgrounds/hero-background.png);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
   color: $color-white;
   @include tablets
   {
-    background-position: left bottom;
+    background-position: left 100% bottom;
+  }
+  @include phones
+  {
+    background-position: left 81% bottom;
   }
 }
 

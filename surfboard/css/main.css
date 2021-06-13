@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap");
 @import url(../layout/normalize.css);
-@import url(../layout/base.css);
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -65,27 +64,37 @@ html {
 
 .hero {
   background-image: url(../pictures/backgrounds/hero-background.png);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
   color: #FFFFFF;
 }
 @media screen and (max-width: 768px) {
   .hero {
-    background-position: left bottom;
+    background-position: left 100% bottom;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hero {
+    background-position: left 81% bottom;
   }
 }
 
 .hero {
   background-image: url(../pictures/backgrounds/hero-background.png);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
   color: #FFFFFF;
 }
 @media screen and (max-width: 768px) {
   .hero {
-    background-position: left bottom;
+    background-position: left 100% bottom;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hero {
+    background-position: left 81% bottom;
   }
 }
 
@@ -265,7 +274,13 @@ html {
 
 @media screen and (max-width: 768px) {
   .hero__button {
-    width: 100%;
+    width: 8.8888888889rem;
+    height: 3.3333333333rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .greetings__button-wrap {
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
@@ -283,17 +298,6 @@ html {
         -ms-flex-pack: center;
             justify-content: center;
     text-align: center;
-  }
-}
-
-.section__title {
-  font-weight: bold;
-  font-size: 2.6666666667rem;
-  text-transform: uppercase;
-}
-@media screen and (max-width: 480px) {
-  .section__title {
-    font-size: 2.2222222222rem;
   }
 }
 
@@ -343,6 +347,11 @@ html {
   margin-bottom: 1.1111111111rem;
   text-transform: uppercase;
 }
+@media screen and (max-width: 480px) {
+  .greetings__title-wrap .greetings__title {
+    font-size: 1.6666666667rem;
+  }
+}
 
 .greetings__title__decs {
   font-weight: normal;
@@ -351,7 +360,8 @@ html {
 }
 
 .section {
-  min-height: 33.8888888889rem;
+  height: 100vh;
+  min-height: 652px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -362,6 +372,16 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .section {
+    min-height: 908px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section {
+    min-height: 925px;
+  }
 }
 .section__title {
   font-size: 2.6666666667rem;
@@ -602,7 +622,7 @@ html {
 
 .delivery__section {
   background-image: url(../pictures/backgrounds/delivery-background.jpg);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
   color: #FFFFFF;
@@ -825,29 +845,12 @@ html {
   }
 }
 
-.socials__section-vk {
-  background-image: url(../pictures/socials/vk.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: top center;
+.inst-icon {
+  fill: black;
 }
-.socials__section-f {
-  background-image: url(../pictures/socials/f.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: top center;
-}
-.socials__section-inst {
-  background-image: url(../pictures/socials/inst.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: top center;
-}
-.socials__section-tw {
-  background-image: url(../pictures/socials/tw.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: top center;
+
+.icon:hover {
+  color: black;
 }
 
 .hamburger {

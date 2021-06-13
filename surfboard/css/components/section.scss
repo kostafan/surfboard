@@ -1,8 +1,16 @@
 
 .section
 {
-  // height: 100vh;
-  min-height: rem(610px);
+  height: 100vh;
+  min-height: 652px;
+  @include tablets
+  {
+   min-height: 908px;
+  }
+  @include phones
+  {
+   min-height: 925px;
+  }
   display: flex;
   flex-direction: column;
   justify-content: center;
